@@ -2,37 +2,61 @@
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 
 /* Give the <body> element a background of #d0d3d4*/
-
+body{
+    background-color: #d0d3d4;
+}
 
 /* Make the <h1> element #cd6155*/
-
+h1{
+    color:#cd6155 ;
+}
 
 /* Make all <h2> elements IndianRed */
-
+h2{
+    color: indianred;
+}
 
 /* Make all text inside li tags salmon*/ 
-
+li{
+    color: salmon;
+}
 
 /*Change the background on every paragraph to be #8073fa*/
-
+p{
+    background-color:#8073fa ;
+}
 
 /*Make all inputs have a 3px color #73fa80 border*/
-
+input{
+    border: 3px;
+    border-color:#73fa80 ;
+    border-style:solid;
+}
 
 /* Give everything with the class 'first' a salmon background*/
-
+.first{
+    background-color: salmon;
+}
 
 /* Give the element with id 'special' a 4px solid color rgb(115,250,128) border*/
-
+#special{
+    border: 4px rgb(115,250,128) solid;
+}
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-
+div>p{
+    font-size: 25px;
+}
 
 /*Make only inputs with type 'text' have a salmon background*/
-
+[type="text"]{
+    background-color: salmon;
+}
 
 /* Give both <p>'s inside the 3rd <div> a #73fa80 color background*/
-
+div:nth-child(3n+3){
+    background-color: #73fa80;
+}
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px salmon border*/
 
